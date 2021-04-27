@@ -8,6 +8,7 @@ body {
     color: white;
 }
 .stopka{
+    clear: left;
     font-family: 'Righteous';
     font-size: 24px;
     text-align: center;
@@ -96,4 +97,104 @@ body {
     width: 49%;
     height: 700px;
     font-size: 36px;
+}
+
+#informacjie
+{
+    float: left;
+
+    width: 584px;
+    height: 117px;
+
+    margin: 100px;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 39px;
+}
+
+#BP
+{
+    margin-top: 100px;
+    float: left;
+
+    width: 561px;
+    height: 745px;
+
+    text-align: center;
+
+    margin: 100px 0px 0px 200px;
+    padding: 30px 0px 0px 0px;
+
+    border: none;
+    border-radius: 20px;
+
+    background: #1D1A1A;
+}
+
+.Pole
+{
+    width: 323px;
+    height: 31px;
+
+    margin: 20px;
+
+    border: none;
+    background: #212121;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    border-radius: 8px;
+}
+
+#TextP
+{
+    width: 323px;
+    height: 214px;
+
+    margin: 20px;
+
+    border: none;
+    background: #212121;
+    resize: none;
+    
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    border-radius: 8px;
+}
+
+#Przycisk
+{
+    margin: 20px;
+
+    width: 250px;
+    height: 57px;
+
+    
+    color:  #FFFFFF;
+    background-color: #1D1A1A;
+    border: 1px solid #474747;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.P
+{
+    font-weight: bold;
 }
