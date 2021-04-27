@@ -94,6 +94,60 @@ body {
     background-color: #332F2F;
     text-align: center;
     width: 49%;
-    height: 700px;
+    padding-top: 200px;
+    height: 5d00px;
     font-size: 36px;
+}
+.p1 {
+    float: right;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 250px;
+    margin-right: 80px;
+    font-size: 36px;
+    width: 680px;
+    height: 433px;
+    background-color: #1A1818;
+    border-radius: 30px;
+}
+.p2 {
+    background-color: #1A1818;
+    width: 100%;
+    height: 919px;
+}
+.zdj6 {
+    width: 650px;
+    height: 652px;
+    margin-top: 88px;
+    float: right;
+    margin-right: 60px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cena1 {
+    float: right;
+    margin-top: 722px;
+    margin-right: -471px;
+    font-size: 72px;
+}
+.podzespol {
+    margin-top: 60px;
+    margin-left: 26px;
+    padding-top: 76px;
+
+}
+.podzespol_zdj{
+    float: left;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+.podzespol_opis{
+    padding-left: 248px;
+}
+.podzespol_tyt{
+    font-size:50px;
+}
+.podzespol_zaw{
+    padding-top: -120px;
+    font-size:36px;
 }
