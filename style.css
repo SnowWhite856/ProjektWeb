@@ -4,9 +4,11 @@
 body {
     margin: 0;
     font-family: 'Saira';
+    font-weight: bold;
     background-color: #242020;
     color: white;
 }
+
 .stopka{
     clear: both;
     font-family: 'Righteous';
@@ -15,6 +17,7 @@ body {
     color: #5E5454;
     margin-top: 200px;
 }
+
 .logo {
     width: 100px;
     height: 100px;
