@@ -168,19 +168,19 @@ body {
     font-size:36px;
 }
 .kup {
-    border-radius: 41px;
-    position: absolute;
-    width: 303.8px;
-    height: 92.36px;
-    left: 244.92px;
-    top: 1756.45px;
+    font-family: 'Saira';
+    background-color: #FFFFFF; 
+    border: none;
     color: black;
-    background-color: white;
-    overflow: hidden;
-    margin-top: 37px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 50px;
+    padding: 5px 20px;
+    border-radius: 45px;
+    display: block;
+    font-size: 3vw;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 1200px;
+    margin-top: 4%
 }
 
 .zdj7 {
@@ -221,19 +221,19 @@ body {
     font-size:36px;
 }
 .kup2 {
-    border-radius: 41px;
-    position: absolute;
-    width: 303.8px;
-    height: 92.36px;
-    left: 1002.92px;
-    top: 2674.45px;
+    font-family: 'Saira';
+    background-color: #FFFFFF; 
+    border: none;
     color: black;
-    background-color: white;
-    overflow: hidden;
-    margin-top: 37px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 50px;
+    padding: 5px 20px;
+    border-radius: 45px;
+    display: block;
+    font-size: 3vw;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%
 }
 .modele {
     border-top: solid 2px #ACACAC;
@@ -271,12 +271,19 @@ body {
     margin-bottom: 35px;
 }
 .kup3 {
-    overflow: hidden;
+    font-family: 'Saira';
+    background-color: #FFFFFF; 
+    border: none;
     color: black;
-    background-color: white;
-    border-radius: 41px;
-    padding: 8px 40px;
-    font-size: 50px;
+    padding: 5px 20px;
+    border-radius: 45px;
+    display: block;
+    font-size: 3vw;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%
 }
 
 .P
