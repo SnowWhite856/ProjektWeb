@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body 
+{
+    margin: 0;
+    font-family: 'Saira';
+    background-color: #242020;
+    color: white;
+    height: 4000px;
+}
+
+
+
+.bodyhr
+{
+    size: 3px;
+    margin: 0;
+    padding: 0;
+    color: lightgray;
+    width: 99.9%;
+}
+
+.logo 
+{
+    width: 100px;
+    height: 100px;
+}
+
+.menu 
+{
+    overflow: hidden;
+    background-color: #FFF4F4;
+}
+  
+.menu a 
+{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.menu2 
+{
+    float: right;
+    margin-top: 23px;
+}
+
+.koszyk 
+{
+    height: 67px;
+    width: 76px;
+}
+
+
+
+
+.lap_box1
+{
+    background-color: #FFF4F4;
+    height: 16.3%;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.lap_zdj
+{
+    height: 45%;
+    position: absolute; 
+    top: 25%; 
+    right: 75%;
+}
+
+.lap_ikony1
+{
+    height: 18%;
+    position: absolute; 
+    top: 18%; 
+    right: 28%;
+}
+
+.lap_opis1
+{
+    color: black;
+    position: absolute; 
+    width: 400px;
+    top: 30%; 
+    right: 18%;
+    font-size: 2.5vw;
+}
+
+.lap_ikony2
+{
+    height: 18%;
+    position: absolute; 
+    top: 18%; 
+    right: 7%;
+}
+
+.lap_opis2
+{
+    color: black;
+    position: absolute; 
+    text-align:center;
+    width: 400px;
+    top: 30%; 
+    right: 0%;
+    font-size: 2.5vw;
+}
+
+.lap_zdj1
+{
+    position: relative;
+    height: auto;
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 1%;
+}
+
+.lap_box2
+{
+    background-color: #437DD4;
+    height: 10%;
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:-5%;
+    clear: both;
+}
+
+.lap_box2 hr
+{
+    size: 3px;
+    width: 80%;
+    color: lightgray;
+}
+
+.lap_cenaPromo
+{
+    font-family: 'Righteous';
+    margin: 0;
+    padding: 0;
+    font-size: 7.5vw;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.lap_btn1 
+{
+    font-family: 'Saira';
+    background-color: #FFFFFF; 
+    border: none;
+    color: black;
+    padding: 20px;
+    border-radius: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 3vw;
+    margin: 0;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%
+}
