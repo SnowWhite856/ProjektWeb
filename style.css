@@ -89,6 +89,7 @@ body {
 }
 .konN {
     float: left;
+    text-align: center;
     background-color: black;
     width: 100%;
     height: 700px;
@@ -99,103 +100,175 @@ body {
     background-color: #332F2F;
     text-align: center;
     width: 49%;
-    height: 700px;
+    padding-top: 200px;
+    padding-bottom: 211px;
+    height: 5d00px;
     font-size: 36px;
 }
-
-#informacjie
-{
-    float: left;
-
-    width: 584px;
-    height: 117px;
-
-    margin: 100px;
-
-    font-family: Saira;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 39px;
-}
-
-#BP
-{
-    margin-top: 100px;
-    float: left;
-
-    width: 561px;
-    height: 745px;
-
+.p1 {
+    float: right;
     text-align: center;
+    padding: 10px 30px;
+    margin-top: 250px;
+    margin-right: 80px;
+    font-size: 36px;
+    width: 680px;
+    height: 433px;
+    background-color: #1A1818;
+    border-radius: 30px;
+}
+.p2 {
+    background-color: #1A1818;
+    width: 100%;
+    margin-top: 100px;
+    height: 959px;
+}
+.zdj6 {
+    width: 650px;
+    height: 652px;
+    margin-top: 138px;
+    float: right;
+    margin-right: 60px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.cena1 {
+    float: right;
+    margin-top: 772px;
+    margin-right: -471px;
+    font-size: 72px;
+}
+.podzespol {
+    margin-top: -40px;
+    margin-left: 26px;
+    padding-top: 76px;
 
-    margin: 100px 0px 0px 200px;
-    padding: 30px 0px 0px 0px;
-
-    border: none;
-    border-radius: 20px;
-
-    background: #1D1A1A;
+}
+.podzespol_zdj{
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+.podzespol_opis{
+    padding-left: 228px;
+}
+.podzespol_tyt{
+    font-size:50px;
+}
+.podzespol_zaw{
+    font-size:36px;
+}
+.kup {
+    border-radius: 41px;
+    position: absolute;
+    width: 303.8px;
+    height: 92.36px;
+    left: 244.92px;
+    top: 1756.45px;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 37px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
 }
 
-.Pole
-{
-    width: 323px;
-    height: 31px;
-
-    margin: 20px;
-
-    border: none;
-    background: #212121;
-
-    font-family: Saira;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-
-    border-radius: 8px;
+.zdj7 {
+    width: 865px;
+    height: 806px;
+    margin-top: 38px;
+    margin-left: -50px;
+    float: left;
 }
-
-#TextP
-{
-    width: 323px;
-    height: 214px;
-
-    margin: 20px;
-
-    border: none;
-    background: #212121;
-    resize: none;
-    
-    font-family: Saira;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-
-    border-radius: 8px;
+.cena2 {
+    float: left;
+    margin-top: 772px;
+    margin-left: -581px;
+    font-size: 72px;
 }
+.podzespol2 {
+    margin-top: -40px;
+    margin-left: 40px;
+    padding-top: 76px;
 
-#Przycisk
-{
-    margin: 20px;
-
-    width: 250px;
-    height: 57px;
-
-    
-    color:  #FFFFFF;
-    background-color: #1D1A1A;
-    border: 1px solid #474747;
-    box-sizing: border-box;
-    border-radius: 15px;
-
-    font-family: Saira;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 38px;
+}
+.podzespol_zdj2{
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+.podzespol_opis2{
+    margin-left: 328px;
+}
+.podzespol_tyt2{
+    margin-left: 20px;
+    font-size:50px;
+}
+.podzespol_zaw2{
+    padding-left: 20px;
+    font-size:36px;
+}
+.kup2 {
+    border-radius: 41px;
+    position: absolute;
+    width: 303.8px;
+    height: 92.36px;
+    left: 1002.92px;
+    top: 2674.45px;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 37px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.modele {
+    border-top: solid 2px #ACACAC;
+    border-bottom: solid 2px #ACACAC;
+    height: 1200px;
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -120px;
+}
+.model1 {
+    width: 33%;
+    background-color: #2B2929;
+}
+.model2 {
+    width: 34%;
+    background-color: #242020;
+}
+.model3 {
+    width: 33%;
+    background-color: black;
+}
+.model1, .model2, .model3 {
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.model1 img, .model2 img, .model3 img {
+    padding-top: 96px;
+}
+.model_tyt {
+    font-size: 50px;
+}
+.model_zaw {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.kup3 {
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    border-radius: 41px;
+    padding: 8px 40px;
+    font-size: 50px;
 }
 
 .P
@@ -374,4 +447,114 @@ body {
     margin: 10px;
     font-size: 144px;
     line-height: 227px;
+}
+
+#informacjie
+{
+    float: left;
+
+    width: 584px;
+    height: 117px;
+
+    margin: 100px;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 39px;
+}
+
+#BP
+{
+
+    margin-top: 100px;
+    float: left;
+
+    width: 561px;
+    height: 745px;
+
+    text-align: center;
+
+    margin: 100px 0px 0px 200px;
+    padding: 30px 0px 0px 0px;
+
+    border: none;
+    border-radius: 20px;
+
+    background: #1D1A1A;
+}
+
+.Pole
+{
+    color: white;
+
+    width: 323px;
+    height: 31px;
+
+    margin: 20px;
+
+    border: none;
+    background: #212121;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    border-radius: 8px;
+}
+
+#TextP
+{
+    color: white;
+
+    width: 323px;
+    height: 214px;
+
+    margin: 20px;
+
+    border: none;
+    background: #212121;
+    resize: none;
+    
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    border-radius: 8px;
+}
+
+#Przycisk
+{
+    margin: 20px;
+
+    width: 250px;
+    height: 57px;
+
+    
+    color:  #FFFFFF;
+    background-color: #1D1A1A;
+    border: 1px solid #474747;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.P
+{
+    font-weight: bold;
+}
+
+#PrzerwaS
+{
+    padding: 400px;
 }
