@@ -8,11 +8,12 @@ body {
     color: white;
 }
 .stopka{
+    clear: both;
     font-family: 'Righteous';
     font-size: 24px;
     text-align: center;
     color: #5E5454;
-    margin-top: 1000px;
+    margin-top: 200px;
 }
 .logo {
     width: 100px;
@@ -21,6 +22,7 @@ body {
 .menu {
     overflow: hidden;
     background-color: #FFF4F4;
+    border-bottom: 3px solid #ACACAC;
   }
   
 .menu a {
@@ -84,6 +86,7 @@ body {
 }
 .konN {
     float: left;
+    text-align: center;
     background-color: black;
     width: 100%;
     height: 700px;
@@ -95,6 +98,7 @@ body {
     text-align: center;
     width: 49%;
     padding-top: 200px;
+    padding-bottom: 211px;
     height: 5d00px;
     font-size: 36px;
 }
@@ -113,41 +117,153 @@ body {
 .p2 {
     background-color: #1A1818;
     width: 100%;
-    height: 919px;
+    margin-top: 100px;
+    height: 959px;
 }
 .zdj6 {
     width: 650px;
     height: 652px;
-    margin-top: 88px;
+    margin-top: 138px;
     float: right;
     margin-right: 60px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .cena1 {
     float: right;
-    margin-top: 722px;
+    margin-top: 772px;
     margin-right: -471px;
     font-size: 72px;
 }
 .podzespol {
-    margin-top: 60px;
+    margin-top: -40px;
     margin-left: 26px;
     padding-top: 76px;
 
 }
 .podzespol_zdj{
     float: left;
+    margin-top: 25px;
     margin-left: 70px;
     width: 100px;
     height: 100px;
 }
 .podzespol_opis{
-    padding-left: 248px;
+    padding-left: 228px;
 }
 .podzespol_tyt{
     font-size:50px;
 }
 .podzespol_zaw{
-    padding-top: -120px;
     font-size:36px;
+}
+.kup {
+    border-radius: 41px;
+    position: absolute;
+    width: 303.8px;
+    height: 92.36px;
+    left: 244.92px;
+    top: 1756.45px;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 37px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.zdj7 {
+    width: 865px;
+    height: 806px;
+    margin-top: 38px;
+    margin-left: -50px;
+    float: left;
+}
+.cena2 {
+    float: left;
+    margin-top: 772px;
+    margin-left: -581px;
+    font-size: 72px;
+}
+.podzespol2 {
+    margin-top: -40px;
+    margin-left: 40px;
+    padding-top: 76px;
+
+}
+.podzespol_zdj2{
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+.podzespol_opis2{
+    margin-left: 328px;
+}
+.podzespol_tyt2{
+    margin-left: 20px;
+    font-size:50px;
+}
+.podzespol_zaw2{
+    padding-left: 20px;
+    font-size:36px;
+}
+.kup2 {
+    border-radius: 41px;
+    position: absolute;
+    width: 303.8px;
+    height: 92.36px;
+    left: 1002.92px;
+    top: 2674.45px;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 37px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.modele {
+    border-top: solid 2px #ACACAC;
+    border-bottom: solid 2px #ACACAC;
+    height: 1200px;
+    width: 100%;
+    margin-top: 250px;
+    margin-bottom: -120px;
+}
+.model1 {
+    width: 33%;
+    background-color: #2B2929;
+}
+.model2 {
+    width: 34%;
+    background-color: #242020;
+}
+.model3 {
+    width: 33%;
+    background-color: black;
+}
+.model1, .model2, .model3 {
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.model1 img, .model2 img, .model3 img {
+    padding-top: 96px;
+}
+.model_tyt {
+    font-size: 50px;
+}
+.model_zaw {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.kup3 {
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    border-radius: 41px;
+    padding: 8px 40px;
+    font-size: 50px;
 }
