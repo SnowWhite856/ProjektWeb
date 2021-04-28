@@ -464,6 +464,7 @@ body {
 
 #BP
 {
+
     margin-top: 100px;
     float: left;
 
@@ -483,6 +484,8 @@ body {
 
 .Pole
 {
+    color: white;
+
     width: 323px;
     height: 31px;
 
@@ -502,6 +505,8 @@ body {
 
 #TextP
 {
+    color: white;
+
     width: 323px;
     height: 214px;
 
