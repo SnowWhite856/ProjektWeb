@@ -491,7 +491,7 @@ body {
 
     text-align: center;
 
-    margin: 100px 0px 0px 200px;
+    margin: 150px 0px 0px 200px;
     padding: 30px 0px 0px 0px;
 
     border: none;
@@ -572,4 +572,17 @@ body {
 #PrzerwaS
 {
     padding: 400px;
+}
+
+#Pobierz
+{
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: #1D1A1A;
+
+    border: 3px solid black;
+    border-radius: 15px;
 }
