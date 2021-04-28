@@ -10,17 +10,6 @@ body
     height: 4000px;
 }
 
-
-
-.bodyhr
-{
-    size: 3px;
-    margin: 0;
-    padding: 0;
-    color: lightgray;
-    width: 99.9%;
-}
-
 .logo 
 {
     width: 100px;
@@ -31,10 +20,12 @@ body
 {
     overflow: hidden;
     background-color: #FFF4F4;
+    border-bottom: 3px solid #ACACAC;
 }
   
 .menu a 
 {
+    font-weight: bold;
     float: left;
     color: black;
     text-align: center;
@@ -55,8 +46,14 @@ body
     width: 76px;
 }
 
-
-
+.stopka{
+    clear: both;
+    font-family: 'Righteous';
+    font-size: 24px;
+    text-align: center;
+    color: #5E5454;
+    margin-top: 20%;
+}
 
 .lap_box1
 {
@@ -86,10 +83,12 @@ body
 .lap_opis1
 {
     color: black;
+    font-weight: bold;
     position: absolute; 
-    width: 400px;
+    width: 20%;
     top: 30%; 
-    right: 18%;
+    text-align:center;
+    right: 20%;
     font-size: 2.5vw;
 }
 
@@ -104,9 +103,10 @@ body
 .lap_opis2
 {
     color: black;
+    font-weight: bold;
     position: absolute; 
     text-align:center;
-    width: 400px;
+    width: 20%;
     top: 30%; 
     right: 0%;
     font-size: 2.5vw;
@@ -114,11 +114,10 @@ body
 
 .lap_zdj1
 {
-    position: relative;
-    height: auto;
-    width: 50%;
-    margin-left: 27%;
-    margin-top: 1%;
+    height: 100%;
+    position: absolute; 
+    top: 5%; 
+    right: 33%;
 }
 
 .lap_box2
@@ -144,7 +143,6 @@ body
 {
     font-family: 'Righteous';
     margin: 0;
-    padding: 0;
     font-size: 7.5vw;
     text-align: center;
     padding-top: 2%;
@@ -158,13 +156,128 @@ body
     color: black;
     padding: 20px;
     border-radius: 45px;
-    text-align: center;
-    text-decoration: none;
     display: block;
     font-size: 3vw;
-    margin: 0;
+    font-weight: bold;
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%
+}
+
+.lap_spec1
+{
+    margin-top: -12%;
+}
+
+.lap_ikony3
+{
+    width:8%;
+    left:28%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+h1, h2
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 3vw;
+}
+
+h2
+{
+    margin-top: -2%;
+    font-size: 2.3vw;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lap_box3
+{
+    background-color: #1A1818;
+    height: 23%;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:1%;
+    clear: both;
+}
+
+.lap_spec2
+{
+    margin-left:-48%;
+}
+
+.lap_spec2 .lap_ikony3
+{
+    left: 1%;
+}
+
+.lap_zdj2
+{
+    transform: rotate(-60deg);
+    height: 80%;
+    position: absolute; 
+    top: -12%; 
+    right:0;
+}
+
+.lap_spec2 .lap_btn1
+{
+    left: 48%;
+    margin-top: 0;
+}
+
+
+
+.lap_box4
+{
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:1%;
+    clear: both;
+}
+
+.lap_spec3
+{
+    margin-left:60%;
+}
+
+.lap_spec3 .lap_ikony3
+{
+    left: 57%;
+}
+
+.lap_zdj3
+{
+    transform: rotate(-10deg);
+    height: 105%;
+    position: absolute; 
+    top: 5%; 
+    right:46%;
+}
+
+.lap_spec3 .lap_btn1
+{
+    left: 48%;
+    margin-top: 0;
+}
+
+.lap_spec3 h2
+{
+    width:80%;
+}
+
+.lap_spec3 h1
+{
+    margin: 0;
 }
