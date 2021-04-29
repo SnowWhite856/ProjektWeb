@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body 
+{
+    margin: 0;
+    font-family: 'Saira';
+    background-color: #242020;
+    color: white;
+    height: 1000px;
+}
+
+.logo 
+{
+    width: 100px;
+    height: 100px;
+}
+
+.menu 
+{
+    overflow: hidden;
+    background-color: #FFF4F4;
+    border-bottom: 3px solid #ACACAC;
+}
+  
+.menu a 
+{
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.menu2 
+{
+    float: right;
+    margin-top: 23px;
+}
+
+.koszyk 
+{
+    height: 67px;
+    width: 76px;
+}
+
+.stopka
+{
+    clear: both;
+    font-family: 'Righteous';
+    font-size: 24px;
+    text-align: center;
+    color: #5E5454;
+    margin-top: 20%;
+}
+
+.produkt
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    background-color: #1A1818;;
+    margin: auto;
+    text-align: center;
+    font-family: 'Saira';
+    float: left;
+    margin-right:30px;
+    margin-top: 30px;
+}
+  
+.price 
+{
+    color: grey;
+    font-size: 22px;
+}
+  
+.produkt button 
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.produkt button:hover 
+{
+    opacity: 0.7;
+}
+
+.produkt img
+{
+    height: 9vw;
+}
+
+.allfather
+{
+    width:80%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.kosz
+{
+    clear: both;
+    font-size: 2vw;
+    border: 3px solid #ACACAC;
+    width:600px;
+    min-height: 200px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kosz p
+{
+    margin-top: 0px;
+}

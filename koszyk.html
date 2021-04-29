@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFS</title>
+    <link rel="stylesheet" href="koszyk.css" />
+    <link rel="shortcut icon" href="zdj/logo.png" />
+</head>
+<body>
+    
+    <div class="menu">
+        <a href="index.html"><img class="logo" src = "zdj/logo.png"></a>
+        <div class="menu2">
+            <a href="komputery.html">Komputery</a>
+            <a href="laptopy.html">Laptopy</a>
+            <a href="strona.html">O stronie</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="koszyk.html"><img class="koszyk" src="zdj/koszyk2.jpg"></a>
+        </div>
+    </div>
+
+    <div class="allfather">
+
+        <div class="produkt">
+            <img src="zdj/komp6.png">
+            <h1>Komputer 1</h1>
+            <p class="price">8999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Komputer 1',8999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/komp7.png">
+            <h1>Komputer 2</h1>
+            <p class="price">4999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Komputer 2',4999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/model1.png">
+            <h1>Komputer 3</h1>
+            <p class="price">6999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Komputer 3',6999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/model2.png">
+            <h1>Komputer 4</h1>
+            <p class="price">2999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Komputer 4',2999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/model3.png">
+            <h1>Komputer 5</h1>
+            <p class="price">8999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Komputer 5',8999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/laptop1.png">
+            <h1>Laptop 1</h1>
+            <p class="price">5999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Laptop 1',5999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/laptop4.png">
+            <h1>Laptop 2</h1>
+            <p class="price">3999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Laptop 2',3999);">Dodaj</button></p>
+        </div>
+
+        <div class="produkt">
+            <img src="zdj/laptop3.png">
+            <h1>Laptop 3</h1>
+            <p class="price">8999zł</p>
+            <p>Specyfikacja: Intel Core i7 RAM 16GB NVIDIA GeForce RTX 2070 SSD 960GB </p>
+            <p><button onclick="dodajProdukt('Laptop 3',8999);">Dodaj</button></p>
+        </div>
+
+    </div>
+    
+    <div class="kosz">
+        <p>Kosz:</p>
+        <div id="prod">
+
+        </div>
+        <p>Łączna cena: </p>
+        <p id="suma">
+            0
+        </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
