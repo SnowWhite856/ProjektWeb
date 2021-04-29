@@ -102,7 +102,7 @@ body {
     width: 49%;
     padding-top: 200px;
     padding-bottom: 211px;
-    height: 5d00px;
+    height: 500px;
     font-size: 36px;
 }
 .ekran {
@@ -130,14 +130,33 @@ body {
     width: 100%;
     margin-top: 100px;
     height: 959px;
+    z-index: -2;
 }
 .zdj6 {
+    z-index: 1;
     width: 650px;
     height: 652px;
     margin-top: 138px;
     float: right;
     margin-right: 60px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.tlo1 {
+    position: absolute;
+    width: 1188.36px;
+    height: 1002.25px;
+    left: 186.44px;
+    top: 105px;
+    z-index: -1;
+    transform: rotate(10.72deg);
+}
+.tlo2 {
+    position: absolute;
+    width: 1038px;
+    height: 906px;
+    left: 430px;
+    top: 1000px;
+    z-index: -1;
 }
 .cena1 {
     float: right;
@@ -179,7 +198,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     margin-left: auto;
-    margin-right: 1200px;
+    margin-right: 1050px;
     margin-top: 4%
 }
 
@@ -189,6 +208,15 @@ body {
     margin-top: 38px;
     margin-left: -50px;
     float: left;
+}
+.tlo3 {
+    position: absolute;
+    z-index: -1;
+    width: 1344px;
+    height: 938px;
+    left: -226px;
+    top: 1893px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .cena2 {
     float: left;
@@ -210,7 +238,7 @@ body {
     height: 100px;
 }
 .podzespol_opis2{
-    margin-left: 328px;
+    margin-left: 1000px;
 }
 .podzespol_tyt2{
     margin-left: 20px;
